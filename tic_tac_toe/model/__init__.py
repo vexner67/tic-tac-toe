@@ -11,12 +11,17 @@ from tic_tac_toe.model.exceptions import (
 from tic_tac_toe.model.game import Game, GameStatus
 from tic_tac_toe.model.mark import Mark
 from tic_tac_toe.model.match import Match, Score
-from tic_tac_toe.model.window_size import WINDOW_SIZE_PRESETS, WindowSize
+from tic_tac_toe.model.window_size import (
+    DEFAULT_WINDOW_SIZE,
+    WINDOW_SIZE_PRESETS,
+    WindowSize,
+)
 
 __all__ = [
     "BOARD_SIZE",
     "Board",
     "CellOccupiedError",
+    "DEFAULT_WINDOW_SIZE",
     "Game",
     "GameOverError",
     "GameStatus",

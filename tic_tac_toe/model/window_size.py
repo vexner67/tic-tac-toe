@@ -58,3 +58,6 @@ WINDOW_SIZE_PRESETS: dict[str, WindowSize] = {
     "Средний (480×560)": WindowSize(480, 560),
     "Большой (640×740)": WindowSize(640, 740),
 }
+
+#: Размер окна при запуске приложения.
+DEFAULT_WINDOW_SIZE = WINDOW_SIZE_PRESETS["Средний (480×560)"]
